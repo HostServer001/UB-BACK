@@ -72,7 +72,7 @@ if not Config.DB_URI:
 
 if not Config.SESSION:
 
-    LOGS.warning("Please fill var HELLBOT SESSION to continue.")
+    LOGS.warning("Please fill var SESSION to continue.")
 
     quit(1)
 
