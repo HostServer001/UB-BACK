@@ -65,7 +65,7 @@ class Config(object):
     REMOVE_BG_API = os.environ.get("REMOVE_BG_API", None)
     SCREEN_SHOT_LAYER_ACCESS_KEY = os.environ.get("SCREEN_SHOT_LAYER_ACCESS_KEY", None)
     STICKER_PACKNAME = os.environ.get("STICKER_PACKNAME", None)
-    SESSION = os.environ.get("HELLBOT_SESSION", None)
+    SESSION = os.environ.get("STRING_SESSION", None)
     SUDO_HANDLER = os.environ.get("SUDO_HANDLER", ".")
     SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
     TAG_LOGGER = os.environ.get("TAG_LOGGER", None)
