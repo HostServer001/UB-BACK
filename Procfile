@@ -1,1 +1,1 @@
-worker: bash ub.py
+userbot: python -m userbot
