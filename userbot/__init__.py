@@ -10,7 +10,7 @@ from distutils.util import strtobool as sb
 
 from logging import DEBUG, INFO, basicConfig, getLogger
 
-from userbit.user.session import user
+from userbot.user.session import user
 
 from userbot.config import Config
 
