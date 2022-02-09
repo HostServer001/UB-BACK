@@ -6,7 +6,7 @@ from telethon.network.connection.tcpabridged import ConnectionTcpAbridged
 
 from telethon.sessions import StringSession
 
-from hellbot.config import Config
+from userbot.config import Config
 
 if Config.SESSION:
 
